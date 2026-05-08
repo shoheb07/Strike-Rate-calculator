@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strike Rate Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Cricket Strike Rate Calculator</h1>
+
+    <div class="card">
+
+        <label>Runs Scored</label>
+        <input type="number" id="runs" placeholder="Enter Runs">
+
+        <label>Balls Faced</label>
+        <input type="number" id="balls" placeholder="Enter Balls">
+
+        <button onclick="calculateStrikeRate()">
+            Calculate Strike Rate
+        </button>
+
+        <div class="result">
+            <h2 id="output">Strike Rate: 0</h2>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
